@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+inhibit_all_warnings!
+
+target 'LLFAFNetworkTool' do
+
+pod 'AFNetworking', '~> 3.0.0'
+
+end

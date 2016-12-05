@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9A89A3EFE9827E425FA43A /* libPods-LLFAFNetworkTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAB496F9FE230E9C83F7CF /* libPods-LLFAFNetworkTool.a */; };
+		186C24CC1DF543E1008AE1E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24CB1DF543E1008AE1E3 /* main.m */; };
+		186C24CF1DF543E1008AE1E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24CE1DF543E1008AE1E3 /* AppDelegate.m */; };
+		186C24D21DF543E1008AE1E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24D11DF543E1008AE1E3 /* ViewController.m */; };
+		186C24D51DF543E1008AE1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C24D31DF543E1008AE1E3 /* Main.storyboard */; };
+		186C24D71DF543E1008AE1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C24D61DF543E1008AE1E3 /* Assets.xcassets */; };
+		186C24DA1DF543E1008AE1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C24D81DF543E1008AE1E3 /* LaunchScreen.storyboard */; };
+		186C24E51DF543E1008AE1E3 /* LLFAFNetworkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24E41DF543E1008AE1E3 /* LLFAFNetworkToolTests.m */; };
+		186C24F01DF543E1008AE1E3 /* LLFAFNetworkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24EF1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.m */; };
+		186C25031DF54C99008AE1E3 /* LLFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C25021DF54C99008AE1E3 /* LLFNetworkTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186C24E11DF543E1008AE1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C24BF1DF543E1008AE1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C24C61DF543E1008AE1E3;
+			remoteInfo = LLFAFNetworkTool;
+		};
+		186C24EC1DF543E1008AE1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C24BF1DF543E1008AE1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C24C61DF543E1008AE1E3;
+			remoteInfo = LLFAFNetworkTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186C24C71DF543E1008AE1E3 /* LLFAFNetworkTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLFAFNetworkTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C24CB1DF543E1008AE1E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186C24CD1DF543E1008AE1E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186C24CE1DF543E1008AE1E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186C24D01DF543E1008AE1E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		186C24D11DF543E1008AE1E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186C24D41DF543E1008AE1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186C24D61DF543E1008AE1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186C24D91DF543E1008AE1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186C24DB1DF543E1008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C24E01DF543E1008AE1E3 /* LLFAFNetworkToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLFAFNetworkToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C24E41DF543E1008AE1E3 /* LLFAFNetworkToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFAFNetworkToolTests.m; sourceTree = "<group>"; };
+		186C24E61DF543E1008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C24EB1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLFAFNetworkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C24EF1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFAFNetworkToolUITests.m; sourceTree = "<group>"; };
+		186C24F11DF543E1008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C25011DF54C99008AE1E3 /* LLFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFNetworkTool.h; sourceTree = "<group>"; };
+		186C25021DF54C99008AE1E3 /* LLFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFNetworkTool.m; sourceTree = "<group>"; };
+		4F5BD2304FF0F6BC01A2CA8E /* Pods-LLFAFNetworkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFAFNetworkTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLFAFNetworkTool/Pods-LLFAFNetworkTool.release.xcconfig"; sourceTree = "<group>"; };
+		5D44840EE9E2408319C58114 /* Pods-LLFAFNetworkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFAFNetworkTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLFAFNetworkTool/Pods-LLFAFNetworkTool.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEAB496F9FE230E9C83F7CF /* libPods-LLFAFNetworkTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLFAFNetworkTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186C24C41DF543E1008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9A89A3EFE9827E425FA43A /* libPods-LLFAFNetworkTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24DD1DF543E1008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24E81DF543E1008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A46108E74CEC6C1177FAD01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D44840EE9E2408319C58114 /* Pods-LLFAFNetworkTool.debug.xcconfig */,
+				4F5BD2304FF0F6BC01A2CA8E /* Pods-LLFAFNetworkTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		186C24BE1DF543E1008AE1E3 = {
+			isa = PBXGroup;
+			children = (
+				186C24C91DF543E1008AE1E3 /* LLFAFNetworkTool */,
+				186C24E31DF543E1008AE1E3 /* LLFAFNetworkToolTests */,
+				186C24EE1DF543E1008AE1E3 /* LLFAFNetworkToolUITests */,
+				186C24C81DF543E1008AE1E3 /* Products */,
+				0A46108E74CEC6C1177FAD01 /* Pods */,
+				23DEEAA08D7F501342F039C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186C24C81DF543E1008AE1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186C24C71DF543E1008AE1E3 /* LLFAFNetworkTool.app */,
+				186C24E01DF543E1008AE1E3 /* LLFAFNetworkToolTests.xctest */,
+				186C24EB1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186C24C91DF543E1008AE1E3 /* LLFAFNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				186C24FD1DF54957008AE1E3 /* AFNetworkTool */,
+				186C24CD1DF543E1008AE1E3 /* AppDelegate.h */,
+				186C24CE1DF543E1008AE1E3 /* AppDelegate.m */,
+				186C24D01DF543E1008AE1E3 /* ViewController.h */,
+				186C24D11DF543E1008AE1E3 /* ViewController.m */,
+				186C24D31DF543E1008AE1E3 /* Main.storyboard */,
+				186C24D61DF543E1008AE1E3 /* Assets.xcassets */,
+				186C24D81DF543E1008AE1E3 /* LaunchScreen.storyboard */,
+				186C24DB1DF543E1008AE1E3 /* Info.plist */,
+				186C24CA1DF543E1008AE1E3 /* Supporting Files */,
+			);
+			path = LLFAFNetworkTool;
+			sourceTree = "<group>";
+		};
+		186C24CA1DF543E1008AE1E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186C24CB1DF543E1008AE1E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186C24E31DF543E1008AE1E3 /* LLFAFNetworkToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				186C24E41DF543E1008AE1E3 /* LLFAFNetworkToolTests.m */,
+				186C24E61DF543E1008AE1E3 /* Info.plist */,
+			);
+			path = LLFAFNetworkToolTests;
+			sourceTree = "<group>";
+		};
+		186C24EE1DF543E1008AE1E3 /* LLFAFNetworkToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186C24EF1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.m */,
+				186C24F11DF543E1008AE1E3 /* Info.plist */,
+			);
+			path = LLFAFNetworkToolUITests;
+			sourceTree = "<group>";
+		};
+		186C24FD1DF54957008AE1E3 /* AFNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				186C25011DF54C99008AE1E3 /* LLFNetworkTool.h */,
+				186C25021DF54C99008AE1E3 /* LLFNetworkTool.m */,
+			);
+			name = AFNetworkTool;
+			sourceTree = "<group>";
+		};
+		23DEEAA08D7F501342F039C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAB496F9FE230E9C83F7CF /* libPods-LLFAFNetworkTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186C24C61DF543E1008AE1E3 /* LLFAFNetworkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C24F41DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkTool" */;
+			buildPhases = (
+				FB0427EA0F8888F9567252A1 /* [CP] Check Pods Manifest.lock */,
+				186C24C31DF543E1008AE1E3 /* Sources */,
+				186C24C41DF543E1008AE1E3 /* Frameworks */,
+				186C24C51DF543E1008AE1E3 /* Resources */,
+				D38DA282A83BD35F4C63388C /* [CP] Embed Pods Frameworks */,
+				FC2FA1E75F4A85BBA84169DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLFAFNetworkTool;
+			productName = LLFAFNetworkTool;
+			productReference = 186C24C71DF543E1008AE1E3 /* LLFAFNetworkTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186C24DF1DF543E1008AE1E3 /* LLFAFNetworkToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C24F71DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkToolTests" */;
+			buildPhases = (
+				186C24DC1DF543E1008AE1E3 /* Sources */,
+				186C24DD1DF543E1008AE1E3 /* Frameworks */,
+				186C24DE1DF543E1008AE1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C24E21DF543E1008AE1E3 /* PBXTargetDependency */,
+			);
+			name = LLFAFNetworkToolTests;
+			productName = LLFAFNetworkToolTests;
+			productReference = 186C24E01DF543E1008AE1E3 /* LLFAFNetworkToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186C24EA1DF543E1008AE1E3 /* LLFAFNetworkToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C24FA1DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkToolUITests" */;
+			buildPhases = (
+				186C24E71DF543E1008AE1E3 /* Sources */,
+				186C24E81DF543E1008AE1E3 /* Frameworks */,
+				186C24E91DF543E1008AE1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C24ED1DF543E1008AE1E3 /* PBXTargetDependency */,
+			);
+			name = LLFAFNetworkToolUITests;
+			productName = LLFAFNetworkToolUITests;
+			productReference = 186C24EB1DF543E1008AE1E3 /* LLFAFNetworkToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186C24BF1DF543E1008AE1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LLF;
+				TargetAttributes = {
+					186C24C61DF543E1008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+					};
+					186C24DF1DF543E1008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186C24C61DF543E1008AE1E3;
+					};
+					186C24EA1DF543E1008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186C24C61DF543E1008AE1E3;
+					};
+				};
+			};
+			buildConfigurationList = 186C24C21DF543E1008AE1E3 /* Build configuration list for PBXProject "LLFAFNetworkTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186C24BE1DF543E1008AE1E3;
+			productRefGroup = 186C24C81DF543E1008AE1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186C24C61DF543E1008AE1E3 /* LLFAFNetworkTool */,
+				186C24DF1DF543E1008AE1E3 /* LLFAFNetworkToolTests */,
+				186C24EA1DF543E1008AE1E3 /* LLFAFNetworkToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186C24C51DF543E1008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24DA1DF543E1008AE1E3 /* LaunchScreen.storyboard in Resources */,
+				186C24D71DF543E1008AE1E3 /* Assets.xcassets in Resources */,
+				186C24D51DF543E1008AE1E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24DE1DF543E1008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24E91DF543E1008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D38DA282A83BD35F4C63388C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLFAFNetworkTool/Pods-LLFAFNetworkTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0427EA0F8888F9567252A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2FA1E75F4A85BBA84169DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLFAFNetworkTool/Pods-LLFAFNetworkTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186C24C31DF543E1008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24D21DF543E1008AE1E3 /* ViewController.m in Sources */,
+				186C25031DF54C99008AE1E3 /* LLFNetworkTool.m in Sources */,
+				186C24CF1DF543E1008AE1E3 /* AppDelegate.m in Sources */,
+				186C24CC1DF543E1008AE1E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24DC1DF543E1008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24E51DF543E1008AE1E3 /* LLFAFNetworkToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24E71DF543E1008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24F01DF543E1008AE1E3 /* LLFAFNetworkToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186C24E21DF543E1008AE1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C24C61DF543E1008AE1E3 /* LLFAFNetworkTool */;
+			targetProxy = 186C24E11DF543E1008AE1E3 /* PBXContainerItemProxy */;
+		};
+		186C24ED1DF543E1008AE1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C24C61DF543E1008AE1E3 /* LLFAFNetworkTool */;
+			targetProxy = 186C24EC1DF543E1008AE1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186C24D31DF543E1008AE1E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186C24D41DF543E1008AE1E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186C24D81DF543E1008AE1E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186C24D91DF543E1008AE1E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186C24F21DF543E1008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186C24F31DF543E1008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186C24F51DF543E1008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D44840EE9E2408319C58114 /* Pods-LLFAFNetworkTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		186C24F61DF543E1008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5BD2304FF0F6BC01A2CA8E /* Pods-LLFAFNetworkTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		186C24F81DF543E1008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFAFNetworkTool.app/LLFAFNetworkTool";
+			};
+			name = Debug;
+		};
+		186C24F91DF543E1008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFAFNetworkTool.app/LLFAFNetworkTool";
+			};
+			name = Release;
+		};
+		186C24FB1DF543E1008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLFAFNetworkTool;
+			};
+			name = Debug;
+		};
+		186C24FC1DF543E1008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFAFNetworkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFAFNetworkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLFAFNetworkTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186C24C21DF543E1008AE1E3 /* Build configuration list for PBXProject "LLFAFNetworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24F21DF543E1008AE1E3 /* Debug */,
+				186C24F31DF543E1008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C24F41DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24F51DF543E1008AE1E3 /* Debug */,
+				186C24F61DF543E1008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C24F71DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24F81DF543E1008AE1E3 /* Debug */,
+				186C24F91DF543E1008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C24FA1DF543E1008AE1E3 /* Build configuration list for PBXNativeTarget "LLFAFNetworkToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24FB1DF543E1008AE1E3 /* Debug */,
+				186C24FC1DF543E1008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186C24BF1DF543E1008AE1E3 /* Project object */;
+}
